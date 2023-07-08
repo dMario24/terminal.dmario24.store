@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>termianl.dmario24.store</title>
+    <meta name="title" content="termianl.dmario24.store" />
+    <meta
+      name="description"
+      content="데이터 엔지니어 연결 터미널"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://termianl.dmario24.store/" />
+    <meta property="og:title" content="데이터 엔지니어 연결 터미널" />
+    <meta
+      property="og:description"
+      content="데이터 엔지니어 연결 터미널"
+    />
+    <meta
+      property="og:image"
+      content="https://d24-terminal.web.app/dmario24-og.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://termianl.dmario24.store/" />
+    <meta property="twitter:title" content="데이터 엔지니어 연결 터미널" />
+    <meta
+      property="twitter:description"
+      content="데이터 엔지니어 연결 터미널"
+    />
+    <meta
+      property="twitter:image"
+      content="https://d24-terminal.web.app/dmario24-og.png"
+    />
+
+    <!-- Favicons and assets -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1d2a35" />
+    <meta name="msapplication-TileColor" content="#1d2a35" />
+    <meta name="theme-color" content="#1d2a35" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- firebase -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDdd0_JoT0wXrRUrfPmkBypt3-9zJSpfuE",
+        authDomain: "d24-terminal.firebaseapp.com",
+        projectId: "d24-terminal",
+        storageBucket: "d24-terminal.appspot.com",
+        messagingSenderId: "961536695492",
+        appId: "1:961536695492:web:76373407248d5398c6bd91",
+        measurementId: "G-C00D31YNWC"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>

@@ -14,7 +14,8 @@ const Welcome: React.FC = () => {
     <HeroContainer data-testid="welcome">
       <div className="info-section">
         <PreName>
-          {` __  __            _      ___  _  _   
+          {`
+ __  __            _      ___  _  _   
 |  \/  |          (_)    |__ \| || |  
 | \  / | __ _ _ __ _  ___   ) | || |_ 
 | |\/| |/ _  | __| |/ _ \ / /|__   _|
@@ -47,12 +48,12 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
+        <div>Welcome, we introduce data engineers who are likely to evolve.</div>
         <Seperator>----</Seperator>
         <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
+        living for today{" "}
+          <Link href="https://dmario24.store">
+            Engineer portfolio
           </Link>
           .
         </div>

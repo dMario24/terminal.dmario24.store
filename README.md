@@ -10,6 +10,7 @@
 
 ### STG
 - PRD : https://terminal.dmario24.store/
+- STG : https://terminal-dmario24.netlify.app
 - DEV : https://d24-terminal.web.app/
 
 ### Build / Deploy
